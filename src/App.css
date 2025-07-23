@@ -27,3 +27,33 @@ label {
   font-weight: 500;
   color: #DCE3EA;
 }
+
+.search-wrapper {
+  position: relative;
+  padding: 1rem;
+}
+
+.autocomplete {
+  position: absolute;
+  background-color: #1B263B;
+  border: 1px solid #415A77;
+  width: 300px;
+  z-index: 1000;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.autocomplete-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #E0E1DD;
+}
+
+.autocomplete-item:hover {
+  background-color: #415A77;
+}
+
+.loader {
+  margin-top: 0.5rem;
+  color: #778DA9;
+}
